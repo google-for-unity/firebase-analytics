@@ -1,16 +1,16 @@
 {
-    "name": "com.google.firebase.analytics",
-    "displayName": "Firebase Analytics",
-    "description": "Get free and unlimited game and player analytics.",
-    "version": "10.6.0",
-    "unity": "2018.1",
-    "category": "google-for-unity",
-    "keywords": [
-        "Google",
-        "Firebase",
-        "Analytics"
-    ],
-    "dependencies": {
-        "com.google.firebase.core": "10.6.0"
-    }
+  "name": "com.google.firebase.analytics",
+  "displayName": "Firebase Analytics",
+  "description": "Get free and unlimited game and player analytics.",
+  "version": "10.7.0",
+  "unity": "2018.1",
+  "category": "google-for-unity",
+  "keywords": [
+    "Google",
+    "Firebase",
+    "Analytics"
+  ],
+  "dependencies": {
+    "com.google.firebase.core": "10.7.0"
+  }
 }
