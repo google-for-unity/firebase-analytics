@@ -30,6 +30,8 @@ public class FirebaseAnalyticsManager
 {
     static DependencyStatus dependencyStatus = DependencyStatus.UnavailableOther;
 
+    public static bool IsInitialized = false;
+
     //Init firebase
     public static void Initialize()
     {
@@ -51,6 +53,7 @@ public class FirebaseAnalyticsManager
     static async void InitFirebase()
     {
         FirebaseAnalytics.SetAnalyticsCollectionEnabled(true);
+        IsInitialized = true;
     }
 
 //Example LogEvent No Parameter
